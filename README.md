@@ -11,9 +11,9 @@ Heat stroke is a severe medical emergency caused by thermoregulatory failure. Cu
 
 Consulting a Medical Officer (National Teaching Hospital, Kandy) confirmed the key gaps:
 
-- **Single-indicator risk** — anhidrosis alone isn't a reliable standalone trigger; heart rate and other vitals matter too.
-- **Symptom-based, not data-based** — assessments depend on the worker/patient reporting symptoms.
-- **Field monitoring gap** — human error, no continuous monitoring, and high equipment cost limit current site-safety practices.
+- **Single-indicator risk** - anhidrosis alone isn't a reliable standalone trigger; heart rate and other vitals matter too.
+- **Symptom-based, not data-based** - assessments depend on the worker/patient reporting symptoms.
+- **Field monitoring gap** - human error, no continuous monitoring, and high equipment cost limit current site-safety practices.
 
 High-risk populations: outdoor laborers (construction, agriculture), military personnel in hot climates, athletes, and the elderly during heatwaves.
 
@@ -27,14 +27,14 @@ A compact wearable patch that fuses two physiological signals in real time:
 | NTC thermistor | Skin temperature | Track rising thermal load |
 | (Planned) HR/PPG sensor | Heart rate | Cross-validate risk (clinician-recommended) |
 
-A low-energy microcontroller runs on-device sensor-fusion to flag the anhidrosis + temperature pattern that precedes heat stroke, and raises an alert before collapse — instead of relying on visual observation or a "buddy system."
+A low-energy microcontroller runs on-device sensor-fusion to flag the anhidrosis + temperature pattern that precedes heat stroke, and raises an alert before collapse - instead of relying on visual observation or a "buddy system."
 
 **Need statement:**
 > "A way to continuously monitor the onset of anhidrosis (sweat cessation) in individuals exposed to high environmental heat or prolonged physical exertion, in order to provide an actionable early warning of heat stroke before systemic physiological collapse occurs."
 
 ## 🎯 Why This Need (of 5 investigated)
 
-The team evaluated five biomedical device opportunities (heat stroke detection, physiotherapy ROM tracking, CKDu screening, diabetic foot ulcer monitoring, dental caries detection via fluorescence) against Estimated Market, Patient Impact, Provider Impact, Feasibility, and Team Preference. **Heat stroke early detection scored highest (20/25)** — see [`docs/need-selection.md`](docs/need-selection.md) and the full [investigation report](docs/BDD_Investigation_Report.pdf).
+The team evaluated five biomedical device opportunities (heat stroke detection, physiotherapy ROM tracking, CKDu screening, diabetic foot ulcer monitoring, dental caries detection via fluorescence) against Estimated Market, Patient Impact, Provider Impact, Feasibility, and Team Preference. **Heat stroke early detection scored highest (20/25)** - see [`docs/need-selection.md`](docs/need-selection.md) and the full [investigation report](docs/BDD_Investigation_Report.pdf).
 
 ## 🧩 System Architecture
 
@@ -67,4 +67,4 @@ The team evaluated five biomedical device opportunities (heat stroke detection, 
 | Wanninayaka W.M.I.R. | 240695X |
 | Thiyamini M.W.T. | 240669X |
 
-Course: **BM2210 — Biomedical Device Design**, Dept. of Electronic and Telecommunication Engineering, University of Moratuwa.
+Course: **BM2210 - Biomedical Device Design**, Dept. of Electronic and Telecommunication Engineering, University of Moratuwa.
