@@ -59,3 +59,59 @@ Environmental heat stress is a growing health concern, particularly in tropical 
 ```bash
 git clone [https://github.com/your-username/heat-stroke-monitor.git](https://github.com/your-username/heat-stroke-monitor.git)
 cd heat-stroke-monitor
+
+### Step 2: Install Flutter Dependencies
+To fetch all the required packages specified in pubspec.yaml, run:
+flutter pub get
+
+### Step 3: Configure Firebase
+1. Set up your Firebase project and add your Android/iOS apps.
+2. Place your generated google-services.json inside android/app/.
+3. Ensure your Firebase Realtime Database URL is correctly specified in main.dart:
+FirebaseDatabase.instance.databaseURL = 'https://your-database-region.firebasedatabase.app';
+
+### Step 4: Run the Python ML Anomaly Detection Script
+1. Place your Firebase serviceAccountKey.json in your backend Python directory.
+2. Install required Python packages:
+pip install firebase-admin scikit-learn pandas joblib numpy
+3. Run the detection script to bridge real-time analysis:
+python app.py
+
+### Step 5: Build & Run the App
+To run the app on a connected device or emulator:
+flutter run
+
+To build a release APK:
+flutter clean
+flutter pub get
+flutter build apk --release
+
+---
+
+## 🗄️ Firebase Database Schema Reference
+
+The app listens to node structures formatted as follows:
+{
+  "devices": {
+    "DEV-001": {
+      "skin_temp": 37.2,
+      "outside_temp": 32.5,
+      "feels_like_temp": 34.5,
+      "heart_rate": 78,
+      "sweat_level": 5,
+      "anomaly_detected": false
+    }
+  }
+}
+
+---
+
+## 💡 Future Enhancements
+* Integration of an on-device TensorFlow Lite (TFLite) machine learning model for localized edge anomaly detection.
+* GPS location tracking to factor in ambient humidity and direct sunlight index.
+* Automated SMS emergency dispatch for critical risk alerts.
+
+---
+
+## 👨‍💻 Author
+Developed as part of biomedical engineering hardware-software integration research focused on wearable continuous health monitoring.
