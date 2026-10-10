@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435670480388",
+    "project_id": "heatstrockapp",
+    "storage_bucket": "heatstrockapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435670480388:android:94112461caa75f92a2e751",
+        "android_client_info": {
+          "package_name": "com.example.heat_strock_monitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4JVQzla9eB5FwYltUkt_7R1OKMLLXjkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435670480388:android:e88ada5a0b199987a2e751",
+        "android_client_info": {
+          "package_name": "com.example.heat_stroke_monitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4JVQzla9eB5FwYltUkt_7R1OKMLLXjkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
