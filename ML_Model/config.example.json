@@ -1,0 +1,13 @@
+{
+  "database_url": "https://heatstrockapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+  "device_path": "/devices/DEV-001",
+  "model_path": "models/core_temp_model.joblib",
+  "db_path": "data/live_readings.sqlite",
+  "sample_period_s": 2.0,
+  "stale_after_s": 30.0,
+  "poll_period_s": 30.0,
+  "session_gap_min": 60,
+  "skin_invalid_max_min": 3,
+  "hr_missing_policy": "fallback",
+  "write_back": true
+}
