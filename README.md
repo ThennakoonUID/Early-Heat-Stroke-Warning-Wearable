@@ -163,23 +163,6 @@ The team evaluated five biomedical device opportunities (heat stroke detection, 
 | [`docs/system-architecture.md`](docs/system-architecture.md) | Original system architecture notes |
 | [`docs/references.md`](docs/references.md) | References |
 
-## 🗺️ Roadmap
-
-- [x] Need finding & market validation (5 opportunities investigated)
-- [x] Opportunity selected: heat stroke early warning wearable
-- [x] Concept generation, screening and final concept (multi-sensor smart vest)
-- [x] Sensor selection and analogue GSR front end design
-- [x] Custom PCB designed and Gerbers generated
-- [x] Firmware: PPG heart rate with motion rejection, dual NTC, SHT30, GSR lock-in, Firebase upload, buzzer alerts
-- [x] Companion mobile app with live dashboard and notifications (Wi-Fi / Firebase in place of BLE)
-- [x] Core-temperature estimation model and live Firebase inference service
-- [ ] Show the ML core-temperature estimate and PSI in the app
-- [ ] Calibrate NTC offsets and the sweat-level mapping on the final hardware
-- [ ] Collect own vest sessions with a core-temperature reference (ingestible pill or tympanic) and retrain / recalibrate
-- [ ] Field-like validation: outdoor sun, intermittent work, sessions over 2 h, rest breaks
-- [ ] Foam-insulate the vest NTC (improved LOSO RMSE from 0.252 to 0.233 °C in the model study)
-- [ ] Lock down Firebase rules and give the ESP32 its own auth token
-
 ## 👥 Team VitaSync
 
 | Name | Index No. |
