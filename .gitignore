@@ -1,0 +1,11 @@
+#Altium
+
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.Annotation
+*.~*

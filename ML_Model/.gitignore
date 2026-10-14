@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets: Firebase service-account keys must never be committed
+*-sa.json
+*service-account*.json
+*firebase-adminsdk*.json
+
+# Local settings (copy config.example.json to config.json)
+config.json
+
+# Live recordings from the vest (personal physiological data)
+data/*.sqlite
+data/*.sqlite-journal
+
+# Third-party source datasets (download them separately; not ours to redistribute)
+data/*.xlsx
+
+# Scratch output
+my_test.csv
+replay_out.csv
+
+terminal.txt
