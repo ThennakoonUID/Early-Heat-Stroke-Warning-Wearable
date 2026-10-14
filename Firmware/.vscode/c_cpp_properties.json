@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/NTC_Thermistor/include",
-                "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/NTC_Thermistor/src",
+                "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/Heat_stroke_early_detection/include",
+                "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/Heat_stroke_early_detection/src",
                 "C:/Users/HP-I7/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "C:/Users/HP-I7/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/HP-I7/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
@@ -244,8 +244,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/NTC_Thermistor/include",
-                    "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/NTC_Thermistor/src",
+                    "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/Heat_stroke_early_detection/include",
+                    "C:/Users/HP-I7/OneDrive/Documents/PlatformIO/Projects/Heat_stroke_early_detection/src",
                     "C:/Users/HP-I7/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "C:/Users/HP-I7/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/HP-I7/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
