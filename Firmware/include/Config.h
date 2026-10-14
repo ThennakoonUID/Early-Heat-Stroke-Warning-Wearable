@@ -54,8 +54,8 @@ static constexpr float kBodyTempOffsetC = 0.0f;
 static constexpr float kNtcMaxDiffC = 2.0f;      // two NTCs disagree by more than this -> one lost contact:
                                                  // use only the one that did NOT jump (see SkinTemp in HeatMetrics.h)
 // Skin-temperature plausibility. A reading outside this window cannot be skin (= no contact).
-static constexpr float kSkinMinC = 27.0f;
-static constexpr float kSkinMaxC = 43.0f;
+static constexpr float kSkinMinC = 26.0f;
+static constexpr float kSkinMaxC = 39.0f;
 // A sensor that moved more than this from its own recent value (EMA) has "suddenly jumped".
 // If BOTH jump at once, both are assumed to have lost contact -> error.
 static constexpr float kNtcJumpC = 3.0f;
@@ -65,8 +65,8 @@ static constexpr const char* kSkinErrorText = "ERR: no skin contact";  // sent t
 // ------------------------------- sweat level (1..10 from GSR) ---------------
 // Log mapping of the smoothed skin conductance: <= kSweatGMinUs -> 1, >= kSweatGMaxUs -> 10.
 // CALIBRATE: read "GSR x.xx uS" on the serial monitor with dry skin and with clearly wet skin.
-static constexpr float kSweatGMinUs = 0.5f;
-static constexpr float kSweatGMaxUs = 20.0f;
+static constexpr float kSweatGMinUs = 2.0f;
+static constexpr float kSweatGMaxUs = 150.0f;
 static constexpr uint32_t kGsrHoldMs = 10000;   // keep the last good GSR value this long if windows are disturbed (WiFi)
 
 // ------------------------------- heat-stroke alert (buzzer) -----------------
@@ -89,7 +89,7 @@ static constexpr const char* kFirebaseAuth = "";
 static constexpr uint32_t kFirebaseIntervalMs = 2000;        // upload period
 
 // ------------------------------- person -------------------------------------
-static constexpr float kAgeYears = 30.0f;        // HRmax = 208 - 0.7 * age
+static constexpr float kAgeYears = 22.0f;        // HRmax = 208 - 0.7 * age
 
 // ------------------------------- serial -------------------------------------
 static constexpr uint32_t kPrintPeriodSec = 1;   // human-readable status line period
